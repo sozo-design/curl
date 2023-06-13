@@ -5,9 +5,9 @@ LABEL "com.github.actions.description"="Wraps the curl CLI to be used in Github 
 LABEL "com.github.actions.icon"="download-cloud"
 LABEL "com.github.actions.color"="gray-dark"
 
-LABEL "repository"="http://github.com/wei/curl"
-LABEL "homepage"="http://github.com/wei/curl"
-LABEL "maintainer"="Wei He <github@weispot.com>"
+LABEL "repository"="http://github.com/sozo-design/curl"
+LABEL "homepage"="http://github.com/sozo-design/curl"
+LABEL "maintainer"="Clive Walkden <clive@sozodesign.co.uk>"
 
 RUN apk add --no-cache curl ca-certificates
 

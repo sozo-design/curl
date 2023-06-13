@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: curl
-      uses: wei/curl@master
+      uses: sozo-design/curl@master
       with:
         args: https://httpbin.org/get
 ```
@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: curl
-      uses: wei/curl@v1
+      uses: sozo-design/curl@v1
       with:
         args: -X POST https://httpbin.org/post
 ```
@@ -43,7 +43,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: curl
-      uses: wei/curl@v1
+      uses: sozo-design/curl@v1
       with:
         args: --upload-file .github/workflows/main.yml https://transfer.sh/main-workflow.yml
 ```
@@ -56,7 +56,7 @@ docker run --rm $(docker build -q .) \
 
 
 ## Author
-[Wei He](https://github.com/wei) _github@weispot.com_
+[Clive Walkden](https://github.com/clivewalkden) _clive@sozodesign.co.uk_
 
 
 ## License

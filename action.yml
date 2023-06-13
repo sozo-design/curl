@@ -1,0 +1,11 @@
+name: 'Curl for Github Actions'
+description: 'A GitHub Action to run a curl command via the GitHub Actions runner.'
+author: 'SOZO Design Ltd (https://sozodesign.co.uk)'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'globe'
+  color: 'purple'
