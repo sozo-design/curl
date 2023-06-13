@@ -4,7 +4,7 @@ author: 'SOZO Design Ltd (https://sozodesign.co.uk)'
 
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/sozodesign/curl-action:v1.0.0'
+  image: 'docker://ghcr.io/sozodesign/curl-action:v1.0.1'
 
 branding:
   icon: 'globe'
