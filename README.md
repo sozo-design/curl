@@ -60,4 +60,4 @@ docker run --rm $(docker build -q .) \
 
 
 ## License
-[MIT](https://wei.mit-license.org)
+[MIT](./LICENSE)
