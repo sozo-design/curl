@@ -1,6 +1,6 @@
 # GitHub Action for curl
 
-Wraps the curl CLI to be used in GitHub Actions. See also [GitHub Action for wget](https://github.com/marketplace/actions/github-action-for-wget).
+Wraps the curl CLI to be used in GitHub Actions.
 
 
 ## Features
