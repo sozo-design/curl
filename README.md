@@ -1,6 +1,6 @@
 # GitHub Action for curl
 
-Wraps the curl CLI to be used in GitHub Actions. See also [GitHub Action for wget](https://github.com/marketplace/actions/github-action-for-wget).
+Wraps the curl CLI to be used in GitHub Actions.
 
 
 ## Features
@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: curl
-      uses: sozo-design/curl@v1.0.1
+      uses: sozo-design/curl@v1.0.2
       with:
         args: https://httpbin.org/get
 ```
@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: curl
-      uses: sozo-design/curl@v1.0.1
+      uses: sozo-design/curl@v1.0.2
       with:
         args: -X POST https://httpbin.org/post
 ```
@@ -43,7 +43,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: curl
-      uses: sozo-design/curl@v1.0.1
+      uses: sozo-design/curl@v1.0.2
       with:
         args: --upload-file .github/workflows/main.yml https://transfer.sh/main-workflow.yml
 ```
